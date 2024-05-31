@@ -57,7 +57,7 @@ function weightedMean() {
 
 function displayResults(result) {
     if (isNaN(result) || result < 0) {
-        output.textContent = "Invalid entery";
+        output.textContent = "Invalid entry";
     }
     else {
         output.textContent = result + " / 100";
