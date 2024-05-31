@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grade Calculator</title>
     <link rel="stylesheet" href="normalize.css">
-    <link rel="icon" type="image/x-icon" href="calculato-icon.webp">
     <link rel="stylesheet" href="calculator.css">
+    <link rel="icon" type="image/x-icon" href="calculato-icon.webp">
 </head>
 <body>
     <div class="container">
@@ -30,13 +30,13 @@
                         <td>A1</td>
                         <td><input type="text" name="weight" class="weight-input"></td>
                         <td><input type="text" name="achived" class="achived-grade-input"> / <input type="text" name="total" class="total-grade-input"></td>
-                        <td id="percentage-output"></td>
+                        <td class="percentage-output"></td>
                     </tr>
                    
                 </tbody>
             </table>
             <button class="margin-add" id="add-row-btn">ADD ROW</button>
-            <h2 class="margin-add">Results</h2>
+            <h2 class="margin-add" id="results">Results</h2>
             <div class="btn-container">
                 <button class="properties-btn" id="weight-btn">WEIGHTED</button>
                 <button class="properties-btn" id="mean-btn">MEAN</button>
